@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Manrope;
+  src: url("./assets/font/Manrope/Manrope-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Museo;
+  src: url("./assets/font/MuseoModerno/MuseoModerno-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Odo;
+  src: url("./assets/font/Odor_Mean_Chey/OdorMeanChey-Regular.ttf");
+}
+
+@font-face {
+  font-family: Wondersong;
+  src: url("./assets/font/Wondersong.ttf");
+}
+
+@font-face {
+  font-family: Encrypto;
+  src: url("./assets/font/Encrypto.ttf");
+}
+
+@font-face {
+  font-family: Affiliate;
+  src: url("./assets/font/AFFILLIATTE\ DEMO.TTF");
+}
+
+@font-face {
+  font-family: Bodoni;
+  src: url("./assets/font/BOD_R.TTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+nav {
+  background-color: #20262e;
+}
+
+.logo {
+  font-family: "Wondersong";
+  font-size: 10vh;
+  color: #5caa47;
+}
+
+.wondersong {
+  font-family: "Wondersong";
+  font-size: 10vh;
+  color: #5caa47;
+}
+
+.affiliate {
+  font-family: "Affiliate";
+  font-size: 10vh;
+}
+
+.bodoni {
+  font-family: "Bodoni";
+  font-size: 10vh;
+}
+
+.encrypto {
+  font-family: "Encrypto";
+  font-size: 32px;
+}
+
+.odo {
+  font-family: "Odo";
+  font-size: 32px;
+  color: #20262e;
+}
+.museo {
+  font-family: "Museo";
+  font-size: 30px;
+  color: #20262e;
+}
+.manrope {
+  font-family: "Manrope";
+  font-size: 5vh;
+  color: #20262e;
+}
+
+.profile-card-5 {
+  margin-top: 20px;
+}
+.profile-card-5 .btn {
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 7px 20px;
+}
+.profile-card-5 .card-img-block {
+  width: 91%;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+.profile-card-5 .card-img-block img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+}
+.profile-card-5 h5 {
+  font-family: "Manrope";
+  color: #4e5e30;
+  font-weight: 600;
+}
+.profile-card-5 p {
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 300;
+}
+.profile-card-5 .btn-primary {
+  background-color: #4e5e30;
+  border-color: #4e5e30;
+}
