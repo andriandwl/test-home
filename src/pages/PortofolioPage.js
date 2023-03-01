@@ -32,7 +32,10 @@ export default function PortofolioPage() {
         </div>
         <div className="row g-0">
           <div className="col-lg-4">
-            <Link to="/portofolioone" style={{ textDecoration: "none" }}>
+            <Link
+              to="https://trash-drab.vercel.app/"
+              style={{ textDecoration: "none" }}
+            >
               <p
                 className="wondersong mt-3 text-center"
                 style={{ color: "#5caa47" }}
