@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <div className="container">
       <div className="row g-0 m-5 gap-5">
-        <div className="col-lg-4 border rounded-pill border-1">
+        <div className="col-lg-4">
           <img src={noBg} alt="foto" width="100%" />
         </div>
         <div className="col-lg-7">
