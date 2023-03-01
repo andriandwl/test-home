@@ -43,7 +43,7 @@ export default function PortofolioPage() {
           </div>
           <div className="col-lg-4">
             <Link
-              to="https://andriandwl.github.io/jabar-tradifood/"
+              to="https://jabar-tradifood.vercel.app/"
               style={{ textDecoration: "none" }}
             >
               <p className="manrope mt-3 text-center">Jabar Tradifood</p>
