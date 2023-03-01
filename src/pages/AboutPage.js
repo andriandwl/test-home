@@ -1,5 +1,5 @@
 import React from "react";
-import noBg from "../assets/image/no-bg.png";
+import noBg from "../assets/image/mg.png";
 // import bgImage from '../assets/image/img.jpg'
 
 export default function AboutPage() {
