@@ -60,7 +60,7 @@ export default function PortofolioPage() {
               <p className="bodoni mt-3 text-center">Disscuss</p>
             </Link>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-4">
             <Link
               to="https://discuss-alpha.vercel.app/"
               style={{ textDecoration: "none", color: "black" }}
@@ -70,12 +70,22 @@ export default function PortofolioPage() {
               </p>
             </Link>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-4">
             <Link
               to="https://poke-api-gilt.vercel.app/"
               style={{ textDecoration: "none", color: "black" }}
             >
               <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" />
+            </Link>
+          </div>
+          <div className="col-lg-4">
+            <Link
+              to="https://discuss-alpha.vercel.app/"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <p className="mt-3 text-center" style={{ fontSize: "32px" }}>
+                E-Learning
+              </p>
             </Link>
           </div>
         </div>
