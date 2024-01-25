@@ -60,6 +60,8 @@ export default function PortofolioPage() {
               <p className="bodoni mt-3 text-center">Disscuss</p>
             </Link>
           </div>
+        </div>
+        <div className="row g-0 mb-5">
           <div className="col-lg-4">
             <Link
               to="https://discuss-alpha.vercel.app/"
@@ -72,6 +74,7 @@ export default function PortofolioPage() {
           </div>
           <div className="col-lg-4">
             <Link
+              className=" d-flex justify-content-center"
               to="https://poke-api-gilt.vercel.app/"
               style={{ textDecoration: "none", color: "black" }}
             >
