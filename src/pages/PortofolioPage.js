@@ -86,7 +86,10 @@ export default function PortofolioPage() {
               to="https://discuss-alpha.vercel.app/"
               style={{ textDecoration: "none", color: "black" }}
             >
-              <p className="mt-3 text-center" style={{ fontSize: "32px" }}>
+              <p
+                className="lobster mt-3 text-center"
+                style={{ fontSize: "56px" }}
+              >
                 E-Learning
               </p>
             </Link>

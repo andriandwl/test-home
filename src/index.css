@@ -13,6 +13,11 @@
 }
 
 @font-face {
+  font-family: Lobster;
+  src: url("./assets/font/Lobster-Regular.ttf");
+}
+
+@font-face {
   font-family: Wondersong;
   src: url("./assets/font/Wondersong.ttf");
 }
@@ -69,6 +74,11 @@ nav {
 
 .affiliate {
   font-family: "Affiliate";
+  font-size: 10vh;
+}
+
+.lobster {
+  font-family: "Lobster";
   font-size: 10vh;
 }
 
