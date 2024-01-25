@@ -30,7 +30,7 @@ export default function PortofolioPage() {
             <hr className="mt-5" />
           </div>
         </div>
-        <div className="row g-0">
+        <div className="row g-0 mb-5">
           <div className="col-lg-4">
             <Link
               to="https://trash-drab.vercel.app/"
@@ -58,6 +58,24 @@ export default function PortofolioPage() {
               style={{ textDecoration: "none", color: "black" }}
             >
               <p className="bodoni mt-3 text-center">Disscuss</p>
+            </Link>
+          </div>
+          <div className="col-lg-6">
+            <Link
+              to="https://discuss-alpha.vercel.app/"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <p className="mt-3 text-center" style={{ fontSize: "32px" }}>
+                Google Place Autocomplete
+              </p>
+            </Link>
+          </div>
+          <div className="col-lg-6">
+            <Link
+              to="https://poke-api-gilt.vercel.app/"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" />
             </Link>
           </div>
         </div>
