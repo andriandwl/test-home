@@ -54,7 +54,7 @@ export default function PortofolioPage() {
           </div>
           <div className="col-lg-4">
             <Link
-              to="https://andriandwl.github.io/Discuss"
+              to="http://localhost:3000/Discuss"
               style={{ textDecoration: "none", color: "black" }}
             >
               <p className="bodoni mt-3 text-center">Disscuss</p>
