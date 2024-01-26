@@ -54,7 +54,7 @@ export default function PortofolioPage() {
           </div>
           <div className="col-lg-4">
             <Link
-              to="http://localhost:3000/Discuss"
+              to="http://localhost:3001/Discuss"
               style={{ textDecoration: "none", color: "black" }}
             >
               <p className="bodoni mt-3 text-center">Disscuss</p>
@@ -83,7 +83,7 @@ export default function PortofolioPage() {
           </div>
           <div className="col-lg-4">
             <Link
-              to="https://discuss-alpha.vercel.app/"
+              to="http://localhost:3000/dashboard"
               style={{ textDecoration: "none", color: "black" }}
             >
               <p
